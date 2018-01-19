@@ -1,0 +1,37 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+h2 {
+    color: violet;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+nav li {
+  display: inline;
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
+}

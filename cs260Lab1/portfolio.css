@@ -1,0 +1,45 @@
+body {
+    background-color: #F6D9D9;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-family: times;
+}
+
+h2 {
+    color: darkblue;
+    font-family: times;
+}
+
+p {
+    font-family: times;
+    font-size: 20px;
+}
+
+.active {
+    text-decoration-style: double;
+}
+
+.centered {
+    text-align: center;
+}
+
+nav li {
+  display: inline;
+  font-family: times;
+  color: darkblue;
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
+}

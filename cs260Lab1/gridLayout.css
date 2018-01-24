@@ -1,0 +1,37 @@
+body {
+  margin: 40px;
+  background-color: #F6D9D9;
+}
+
+h1 {
+    color: darkblue;
+    text-align: left;
+    font-family: times;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 30% 30% 30%;
+  grid-gap: 10px;
+  background-color: #F6D9D9;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.active {
+    text-decoration-style: double;
+}
+
+nav li {
+  display: inline;
+  font-family: times;
+  color: darkblue;
+}
